@@ -1,5 +1,5 @@
 // import {buffer, point, featureCollection, pointsWithinPolygon} from "@turf";
-import 'https://unpkg.com/@turf/turf@6.3.0/turf.min.js'
+import * as turf from '@turf/turf'
 function filterWithinDistance(data, lat, lng, distance) {
   //49.868400, -97.173556
   var pointVal = turf.point([lng, lat]);
