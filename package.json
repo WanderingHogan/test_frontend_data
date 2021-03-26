@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@turf/turf": "^6.3.0",
     "@turf/buffer": "^6.3.0",
     "@turf/points-within-polygon": "^6.3.0"
   },
